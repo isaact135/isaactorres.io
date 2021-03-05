@@ -1,0 +1,61 @@
+baseurl      = "https://isaactorres.io"
+title        = "Isaac Torres"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "I.T. Made Simple"
+
+  disableReadOtherPosts = false
+
+  enableSharingButtons = true
+
+  footerLeft = "Privacy Policy"
+  footerRight = "Terms of Service"
+
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[languages]
+  [languages.en]
+    title = "Isaac Torres"
+    subtitle = "I.T. Made Simple"
+    keywords = ""
+    copyright = "Isaac Torres"
+
+    [languages.en.params.logo]
+      logoText = "/home/isaac$"
+      logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+    weight     = 2
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/isaact135"
+  [[params.social]]  
+     name = "twitter"
+     url = "https://twitter.com/isaact135"
+  [[params.social]]
+     name = "instagram"
+     url = "https://instagram.com/isaact135"
