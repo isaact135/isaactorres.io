@@ -58,7 +58,7 @@ To verify it is properly working run this
 
 If you see the message you correctly installed docker
 
-You can stop here or you can do these optional but recommended steps.
+You can stop here or you can do these optional but highly recommended steps.
 
 The first one is to add your user account to the docker group so you do not need to preface each command with sudo you can do that using this command
 
